@@ -16,6 +16,11 @@ const Function1 = (a) => {
     return b > a;
 }
 
+function yaFunction() {
+    return 19;
+}
+ 
+
 console.log(typeof anthrFnctn);
 anthrFnctn();
 myFunction();
@@ -23,3 +28,7 @@ const result = returnFunction();
 console.log(result);
 const result2 = Function1();
 console.log(result2);
+console.log(yaFunction());
+const aliasVariable = yaFunction;
+aliasVariable();
+console.log(aliasVariable());
