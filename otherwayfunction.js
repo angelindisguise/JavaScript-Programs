@@ -11,7 +11,7 @@ const returnFunction = () => {
     return a;
 }
 
-const Function1 = () => {
+const Function1 = (a) => {
     const b = 21;
     return b > a;
 }
@@ -20,6 +20,6 @@ console.log(typeof anthrFnctn);
 anthrFnctn();
 myFunction();
 const result = returnFunction();
-result;
+console.log(result);
 const result2 = Function1();
-result2;
+console.log(result2);
